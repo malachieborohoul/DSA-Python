@@ -14,11 +14,10 @@ while not done:
     grade = input()
     if grade == " ":
         done = True
-    elif grade not in points:
-        print('{0} is not recognized'.format(grade))
+    elif grade not in points[grade]:
+        print("{0} is unavailable".format(grade))
     else:
         num_total+=1
-        num_courses+=points[grade]
+        num_courses += points[grade]
+        
 
-if num_courses > 0:
-    print("Result {0:.3}".format(num_courses/num_total))
