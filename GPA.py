@@ -24,4 +24,5 @@ if num_courses > 0:
     print('Your GPA is {0}'.format(num_courses/num_total))
     print('Your GPA is {0}'.format(num_courses/num_total))
     print('Your GPA is {0}'.format(num_courses/num_total))
+    print('Your GPA is {0}'.format(num_courses/num_total))
 
