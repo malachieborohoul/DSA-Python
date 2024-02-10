@@ -1,3 +1,3 @@
 
 
-print(int(9.1))
+print(float('3.0'))
