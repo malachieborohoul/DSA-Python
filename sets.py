@@ -1,5 +1,6 @@
 
+animals = ['lion', 'dog']
 
-fruits = {"mango", 1, 2.0}
+fruits = {animals}
 
 print(fruits)
