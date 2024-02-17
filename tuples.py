@@ -1,6 +1,6 @@
 
-fruits = ('mango', 'banana')
+fruits = ('mango','banana')
 
 
 
-print(list(fruits))
+print(fruits)
