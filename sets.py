@@ -5,6 +5,6 @@ phones = {'iphone', 'techno'}
 
 shoes =('nike', "addidas")
 
-fruits = {phones}
+fruits = {shoes}
 
 print(fruits)
