@@ -1,6 +1,10 @@
 
 animals = ['lion', 'dog']
 
-fruits = {animals}
+phones = {'iphone', 'techno'}
+
+shoes =('nike', "addidas")
+
+fruits = {phones}
 
 print(fruits)
