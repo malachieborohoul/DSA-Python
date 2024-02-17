@@ -10,6 +10,7 @@ while done:
     elif entry not in fruits:
         fruits.append(entry)
     else:
-        index = entry in fruits
-        print(index)
-        
+        for fruit in fruits:
+            if fruit == entry:
+                print('{0} is already in the list'.format(fruit))        
+print(fruits)
