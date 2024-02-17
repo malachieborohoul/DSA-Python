@@ -1,3 +1,15 @@
 fruits=["mango", "banana", "grape"]
 
-print(fruits[0])
+print("Enter a fruit name")
+done = True
+
+while done:
+    entry = input()
+    if entry == " ":
+        done = False
+    elif entry not in fruits:
+        fruits.append(entry)
+    else:
+        index = entry in fruits
+        print(index)
+        
