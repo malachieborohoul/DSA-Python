@@ -15,4 +15,4 @@ fruits=["mango", "banana", "grape"]
 #                 print('{0} is already in the list'.format(fruit))        
 # print(fruits)
 
-print(list(fruits))
+print(fruits)
