@@ -1,5 +1,5 @@
 
 
-print(list("hello"))
+print()
 
 
