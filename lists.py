@@ -15,4 +15,10 @@ fruits=["mango", "banana", "grape"]
 #                 print('{0} is already in the list'.format(fruit))        
 # print(fruits)
 
-print(fruits)
+
+phones =["iphone", "samsung", "huawei"]
+
+phones.append("techno")
+
+
+print(phones)
