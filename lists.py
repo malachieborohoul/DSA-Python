@@ -22,3 +22,14 @@ phones.append("techno")
 
 
 print(phones)
+
+# 
+alpha = [1,2,3]
+
+beta=alpha
+
+beta += [4,5]
+   
+# The reassignation breaks the alias between alpha and beta
+beta = beta + [6,7]
+print(beta)
