@@ -4,3 +4,8 @@ print(""" Welcome guy
        """)
 
 
+
+ok = "hello guys"
+
+print(ok[1])
+
